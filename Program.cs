@@ -1,5 +1,8 @@
 ﻿namespace Practice_Static_Class_Method_Constructor
 {
+    // Ronda Rutherford
+    // Practice - Static Class, Methods, and Constructor
+    // May 8, 2023
     internal class Program
     {
         static void Main(string[] args)
@@ -13,13 +16,13 @@
             Transaction transaction4 = new Transaction("banana onesie", 49.99);
             Transaction transaction5 = new Transaction("fruit basket with banana hook", 17.99);
             // add all 5 transactions to Daily Transactions list
-            DailyTransactions._transactions.Add(transaction1);
-            DailyTransactions._transactions.Add(transaction2);
-            DailyTransactions._transactions.Add(transaction3);
-            DailyTransactions._transactions.Add(transaction4);
-            DailyTransactions._transactions.Add(transaction5);
+            DailyTransactions.AddTransaction(transaction1);
+            DailyTransactions.AddTransaction(transaction2);
+            DailyTransactions.AddTransaction(transaction3);
+            DailyTransactions.AddTransaction(transaction4);
+            DailyTransactions.AddTransaction(transaction5);
             // Display all transaction info
             DailyTransactions.DisplayAllInfo();
-        }
-    }
-}
+        } // Main
+    } // class
+} // namespace

@@ -24,6 +24,7 @@ namespace Practice_Static_Class_Method_Constructor
 
         public override string ToString()
         {
+            // displays product name, time of transaction, and amount
             return $"{Name} - {Now.ToShortTimeString()} - {Amount.ToString("c")}";
         }
     }

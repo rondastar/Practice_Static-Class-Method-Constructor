@@ -16,7 +16,7 @@ namespace Practice_Static_Class_Method_Constructor
             _transactions = new List<Transaction>();
         }
 
-        static void AddTransaction(Transaction transaction)
+        public static void AddTransaction(Transaction transaction)
         {
             _transactions.Add(transaction);
         }
